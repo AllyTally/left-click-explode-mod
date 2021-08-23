@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "explode_mod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Explode Mod",
+  "description": "left clicking blocks makes things explode. woo",
   "authors": [
-    "Me!"
+    "AllyTally"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://ally.moe/",
+    "sources": "https://github.com/AllyTally/left-click-explode-mod"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/explode_mod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "moe.ally.explode.ExplodeMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "explode_mod.mixins.json"
   ],
 
   "depends": {
